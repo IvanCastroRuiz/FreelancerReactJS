@@ -28,12 +28,7 @@ const Formulario = () => {
 
   const { msg } = alerta;
 
-  { 
-    setTimeout(() => {
-        setAlerta({});
-    }, 3000)          
-  }
-
+ 
   return (
     <>
         <section>   
@@ -89,6 +84,7 @@ const Formulario = () => {
 
                 { msg &&  <Alerta 
                             alerta={alerta}
+                            setAlerta={setAlerta}
                           />
                 }   
             

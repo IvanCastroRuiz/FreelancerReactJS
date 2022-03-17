@@ -1,5 +1,5 @@
 
-const Alerta = ({alerta}) => {
+const Alerta = ({alerta, setAlerta}) => {
   
     setTimeout(() => {
       setAlerta({});
